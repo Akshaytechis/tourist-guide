@@ -30,7 +30,7 @@ const Card = ({place}) => {
                 <img class="mainimage" src={place.image} alt="" />
                 <div class="like">
                       <img src={Imglike} onClick={() => {clickFavourite(place)}} alt="" />
-                </div>)
+                </div>
                    
                   </div>
                    <div class="textcontent">
@@ -48,7 +48,7 @@ const Card = ({place}) => {
                      </p>
                  </div>
                   <div class="input-button">
-                     <a href={place.googel_map_link} target="_blank"> Direction </a>
+                     <a href={place.googel_map_link} target="_blank"> Directions </a>
                   </div>
               </div>
               </div>  
