@@ -100,6 +100,7 @@ DATABASES = {
     }
 }
 
+
 # Local Database
 # DATABASES = {
 #     'default': {
